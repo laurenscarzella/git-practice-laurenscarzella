@@ -1,3 +1,142 @@
+  360  git version 2.9.2
+  361  git --version
+  362  git config --global user.name "Lauren Scarzella"
+  363  git.config --global user.email "scarzellalauren@gmail.com"
+  364  git config --global user.name "Emma Paris"
+  365  git config --global user.name "Lauren Scarzella"
+  366  git config --global user.email "scarzellalauren@gmail.com"
+  367  git clone git@github.com:porterjenkins/CS180.git
+  368  git@github.com:porterjenkins/CS180.git\n\n
+  369  git clone git@github.com:porterjenkins/CS180.git
+  370  git clone https://github.com/porterjenkins/CS180.git
+  705  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  708  $ brew install git
+  709  brew install git
+  710  git--version
+  711  git --version
+  712  git config --global user.name "Lauren Scarzella"
+  713  git config --global user.email "scarzellalauren@gmail.com"
+  714  git config --global init.defualtBranch main
+  715  git --version
+  716  git status
+  717  git config --list
+  720  cd cd git-practice
+  722  cd Desktop/git-practice
+  723  git init
+  725  git status
+  727  cd Desktop/git-practice
+  728  git status
+  730  Desktop/git-practice
+  735  Desktop/stat 386/git-practice
+  736  cd Destop/"stat 386"/git-practice
+  737  cd Desktop/"stat 386"/git-practice
+  738  git status
+  741  cd Desktop/stat 386/git-practice-laurenscarzella
+  742  cd Desktop/stat 386/git-practice-laurenscarzella
+  743  cd Desktop/"stat 386"/git-practice-laurenscarzella
+  744  git remote add origin git@github.com:laurenscarzella/git-practice-laurenscarzella.git
+  745  git push -u origin main
+  746  git push
+  747  git push --set-upstream origin master
+  748  git branch -M main
+  749  git push -u origin main
+  750  git branch
+  751  git branch
+  752  git ls -la
+  754  git config --global init.defaultBranch main
+  755  git branch
+  756  git push -u origin main
+  757  git push -u origin main
+  758  git remote -v
+  759  git config
+  760  git config --global laurenscarzella
+  761  git config --global "Lauren Scarzella"
+  762  git config --global user.name "Lauren Scarzella"
+  763  git config --global user.email "scarzellalauren@gmail.com"
+  764  git config --global "Lauren Scarzella"
+  765  git config --user.name
+  766  git config --"Lauren Scarzella"
+  767  git config --global user.name "Lauren Scarzella"
+  768  git config --global user.email "scarzellalauren@gmail.com"
+  769  git config --global init.defaultBranch main
+  770  git config --user.name
+  771  git status
+  772  git branch
+  773  git remote -v
+  774  git branch -M main
+  775  git push -u origin main
+  776  git status
+  779  git status
+  780  git add .
+  781  git status
+  782  git commit -m "create new files"
+  783  git status
+  784  git log
+  785  git status
+  786  git status
+  787  git add file_1.txt
+  788  git status
+  789  git add file_2.txt
+  790  git status
+  791  git log
+  792  git commit -m "modified file 1 and file 2"
+  793  git log
+  795  git add Readme.md
+  796  git commit -m "added title and description of Readme.md"
+  797  touch .gitignore
+  798  git add .gitignore
+  799  git commit -m "added api-keys.txt to .gitignore file"
+  800  git status
+  802  git add api-keys.txt
+  803  git status
+  804  git branch [features]
+  806  cd Desktop/"stat 386"/git-practice-laurenscarzella
+  807  git branch [features]
+  808  git checkout -b features
+  809  git log
+  811  git add new_features.txt
+  812  git commit -m "add empty file"
+  813  git add new_features.txt
+  814  git commit -m "added new features to new_features.txt"
+  815  git branch
+  816  git log
+  817  git log main..features
+  818  git branch
+  819  git checkout main
+  820  git add file_1.txt
+  821  git commit -m "Added a new line of text to file_1.txt"
+  822  git add file_1.txt
+  823  git commit -m "Added a new line of text to file_1.txt"
+  824  git branch
+  825  git merge features
+  826  git log
+  827  git branch
+  828  git checkout main
+  829  git add new_features.txt
+  830  git commit -, "Updated new_features.txt on main: No new features will be created"
+  831  git commit -m "Updated new_features.txt on main: No new features will be created"
+  832  git checkout features
+  833  git add new_features.txt
+  834  git commit -m "Changed old text to: This file has some new text on new_features.txt on features"
+  835  git checkout main
+  836  git merge features
+  837  git add new_features.txt
+  838  git commit
+  839  git log
+  840  git status
+  841  git branch -d features
+  842  git branch
+  843  git remote add origin git@github.com:laurenscarzella/git-practice-laurenscarzella.git
+  844  git push -u origin main
+  845  git config --global user.name
+  846  git config --global user.email
+  847  git config --global core.editor "code --wait"
+  848  git config --global core.editor
+  850  git status
+  851  git branch
+  853  mkdir vscode-git
+  854  cd vscode-git
+  858  cd vscode-git
   860  Desktop/"stat 386"/git-practice-laurenscarzella
   861  cd Desktop/"stat 386"/git-practice-laurenscarzella
   862  git clone git@github.com:laurenscarzella/gitpractice-annafell.git
@@ -13,3 +152,8 @@
   873  git status
   874  git pull
   875  git log --oneline > gitlog.txt
+  876  history | grep git > history.txt
+  878  git add gitlog.txt history.txt
+  879  git add .
+  880  git commit -m "Added gitlog and history"
+  881  git push
